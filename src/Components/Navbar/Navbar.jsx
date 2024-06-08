@@ -2,7 +2,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='navbar'>
+        <div className='navbar md:pt-2'>
             <img src='/public/assets/logo.svg' alt='logo'/>
             <ul className='nav-menu'>
                 <li>Home</li>
