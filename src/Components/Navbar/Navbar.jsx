@@ -5,10 +5,10 @@ const Navbar = () => {
         <div className='navbar md:pt-2'>
             <img src='/public/assets/logo.svg' alt='logo'/>
             <ul className='nav-menu'>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li className='hover:text-[#da7c25]'>Home</li>
+                <li className='hover:text-[#da7c25]'>About Me</li>
+                <li className='hover:text-[#da7c25]'>Projects</li>
+                <li className='hover:text-[#da7c25]'>Contact</li>
 
             </ul>
             <div className="nav-connect">
