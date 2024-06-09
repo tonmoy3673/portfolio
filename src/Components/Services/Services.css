@@ -29,7 +29,19 @@
   border: 2px solid white;
   transition: 0.4s;
   cursor: pointer;
+  padding: 30px;
 }
 .services-container {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+.services-readmore {
+  display: flex;
+}
+.services-format h1 {
+  font-size: 28px;
+  font-weight: 600;
+  background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
