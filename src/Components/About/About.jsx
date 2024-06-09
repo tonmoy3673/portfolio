@@ -53,12 +53,12 @@ const About = () => {
                     <h1>1.5+</h1>
                     <p>YEARS OF LEARNING EXPERIENCE</p>
                 </div>
-                <hr/>
+                <hr className='w-32'/>
                 <div className="about-achievement">
                     <h1>25+</h1>
                     <p>PROJECTS COMPLETED</p>
                 </div>
-                <hr/>
+                <hr className='w-32'/>
                 <div className="about-achievement">
                     <h1>5+</h1>
                     <p>HAPPY CLIENTS</p>
