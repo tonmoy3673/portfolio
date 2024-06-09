@@ -21,3 +21,20 @@
   z-index: -1;
   width: 190px;
 }
+.about-sections {
+  display: flex;
+  gap: 80px;
+}
+.about-left img {
+  width: 1400px;
+  border-radius: 10px;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-para {
+  font-size: 18px;
+  font-weight: 500;
+}

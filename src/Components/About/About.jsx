@@ -9,12 +9,12 @@ const About = () => {
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                <img src='/public/assets/tonmoy.jpg' alt='tonmoy'/>
+                <img src='/public/assets/tonmoy.jpg' alt='tonmoy' className=''/>
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>I have 1.5 years of learning experience in web development from the Front-End point of view and am well-versed in coding for both Single Page Applications and larger multiple paged Websites.</p>
-                        <p>I consider myself a quick learner, a self-motivated, responsible, disciplined and deadline-oriented person who can work under pressure and solve problems in a critical situation with analytical knowledge and the latest technology.</p>
+                        <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+                        {/* <p>I consider myself a quick learner, a self-motivated, responsible, disciplined and deadline-oriented person who can work under pressure and solve problems in a critical situation with analytical knowledge and the latest technology.</p> */}
                     </div>
                     <div className="about-skills">
                         <div className="about-skill">

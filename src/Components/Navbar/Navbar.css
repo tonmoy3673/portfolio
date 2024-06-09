@@ -23,3 +23,21 @@
 .nav-connect:hover {
   transform: scale(1.05);
 }
+.nav-title {
+  position: relative;
+}
+.nav-title h1 {
+  padding: 0px 30px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.nav-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  z-index: -1;
+  width: 70px;
+  height: 15px;
+  margin-bottom: 10px;
+}
