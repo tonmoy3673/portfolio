@@ -26,7 +26,7 @@
   gap: 80px;
 }
 .about-left img {
-  width: 1400px;
+  width: 1300px;
   border-radius: 10px;
 }
 .about-right {
@@ -37,4 +37,28 @@
 .about-para {
   font-size: 18px;
   font-weight: 500;
+}
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.about-skill {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  transition: 0.3s;
+}
+.about-skill p {
+  min-width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.about-skill hr {
+  outline: none;
+  border: none;
+  width: 50%;
+  height: 6px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
 }
