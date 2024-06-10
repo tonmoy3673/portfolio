@@ -10,7 +10,7 @@ const Services = () => {
             </div>
             </div>
             
-            <div className="grid grid-cols-1 lg:grid-cols-3 services-container gap-16 justify-center text-center ">
+            <div className="grid grid-cols-1 lg:grid-cols-3 services-container gap-16 justify-center items-center text-center ">
                <div className='services-format'>
               
                 <h1>Web Design</h1>

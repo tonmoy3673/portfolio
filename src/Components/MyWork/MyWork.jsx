@@ -9,6 +9,9 @@ const MyWork = () => {
                 <img src='/public/assets/theme_pattern.svg'/>
             </div>
            </div>
+           <div >
+
+           </div>
             
         </div>
     );
