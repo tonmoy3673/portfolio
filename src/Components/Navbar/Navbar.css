@@ -50,3 +50,6 @@
   display: flex;
   margin: auto;
 }
+.anchor-link {
+  text-decoration: none;
+}

@@ -2,7 +2,7 @@
 import './MyWork.css';
 const MyWork = () => {
     return (
-        <div className='my-work'>
+        <div id='projects' className='my-work'>
            <div className="work-banner">
            <div className="work-title">
                 <h1>My Latest Work</h1>

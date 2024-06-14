@@ -2,7 +2,7 @@
 
 import './Contact.css';
 const Contact = () => (
-    <div className='contact'>
+    <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Get in Touch</h1>
             <img src='/public/assets/theme_pattern.svg' />
