@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import './Hero.css';
 
 const Hero = () => {
@@ -8,7 +9,7 @@ const Hero = () => {
             <p className='hero-text text-center'>I have a ton of prior experience in web development from the Front-End point of view and am well-versed in coding for both Single Page Applications and larger multiple paged Websites.</p>
             <div className="hero-action">
             <div className="hero-connect">
-                Connect with me
+            <AnchorLink className='anchor-link' offset={50} href='#contact'>  Connect with me</AnchorLink>
             </div>
             <div className="hero-resume">
                 My Resume
