@@ -40,3 +40,13 @@
   height: 15px;
   margin-bottom: 10px;
 }
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
