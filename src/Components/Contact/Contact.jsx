@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import toast from 'react-hot-toast';
 import './Contact.css';
 const Contact = () =>{
     const onSubmit = async (event) => {
@@ -23,6 +24,7 @@ const Contact = () =>{
     
         if (res.success) {
             form.reset()
+            toast.success('Email has been sent successfully!!')
             
         }
       };
