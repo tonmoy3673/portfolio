@@ -6,7 +6,7 @@ const Contact = () =>{
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+        formData.append("access_key", "0feabc17-69c3-4689-adc2-4326df278ffa");
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -51,7 +51,7 @@ const Contact = () =>{
             </div>
 
             {/* ============ form part =========== */}
-            <form className="contact-right">
+            <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor='name'>Your Name *</label>
                 <input type='text' placeholder='Enter your name' name='name'/>
                 <label htmlFor='email'>Your Email *</label>
