@@ -1,7 +1,33 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import './Contact.css';
-const Contact = () => (
+const Contact = () =>{
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+          console.log("Success", res);
+        }
+      };
+    
+    
+   return (
+    
     <div id='contact' className='contact'>
         <div className="contact-title">
             <h1>Get in Touch</h1>
@@ -37,6 +63,6 @@ const Contact = () => (
         </div>
 
     </div>
-);
+)};
 
 export default Contact;
