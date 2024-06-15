@@ -4,7 +4,8 @@ import './Contact.css';
 const Contact = () =>{
     const onSubmit = async (event) => {
         event.preventDefault();
-        const formData = new FormData(event.target);
+        const form=event.target;
+        const formData = new FormData(form);
     
         formData.append("access_key", "0feabc17-69c3-4689-adc2-4326df278ffa");
     
@@ -21,7 +22,8 @@ const Contact = () =>{
         }).then((res) => res.json());
     
         if (res.success) {
-          console.log("Success", res);
+            form.reset()
+            
         }
       };
     
@@ -53,11 +55,11 @@ const Contact = () =>{
             {/* ============ form part =========== */}
             <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor='name'>Your Name *</label>
-                <input type='text' placeholder='Enter your name' name='name'/>
+                <input type='text' placeholder='Enter your name' name='name' required/>
                 <label htmlFor='email'>Your Email *</label>
-                <input type='email' placeholder='Enter your email' name='email'/>
+                <input type='email' placeholder='Enter your email' name='email' required/>
                 <label htmlFor='message'>Write your message here</label>
-                <textarea name='message' rows='8' placeholder='Enter your message'></textarea>
+                <textarea name='message' rows='8' placeholder='Enter your message' required></textarea>
                 <button type='submit' className="contact-submit">Submit Now</button>
             </form>
         </div>
