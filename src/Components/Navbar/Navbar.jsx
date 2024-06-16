@@ -14,6 +14,7 @@ const Navbar = () => {
             </div>
             <img src='/public/assets/menu_open.svg'/>
             <ul className='nav-menu'>
+                <img src="/public/assets/menu_close.svg" alt="" className="nav-mob-close" />
                 <li className='hover:text-[#da7c25]'><AnchorLink className='anchor-link' offset={50} href='#home'><p onClick={()=>setMenu('home')}>Home</p></AnchorLink>{menu==='home'?<img src='/public/assets/nav_underline.svg' alt='underline'/>:<></>}</li>
                 <li className='hover:text-[#da7c25]'><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu('about')}>About Me</p></AnchorLink>{menu==='about'?<img src='/public/assets/nav_underline.svg'/>:<></>}</li>
                 <li className='hover:text-[#da7c25]'><AnchorLink className='anchor-link' offset={50} href='#projects'><p onClick={()=>setMenu('project')}>Projects</p></AnchorLink>{menu==='project'?<img src='/public/assets/nav_underline.svg'/>:<></>}</li>
