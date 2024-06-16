@@ -65,4 +65,19 @@
     position: fixed;
     right: 30px;
   }
+  .nav-mod-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 290px;
+    width: 30px;
+  }
+  .nav-menu {
+    position: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    gap: 30px;
+    background-color: #1f0016;
+  }
 }
