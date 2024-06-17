@@ -46,3 +46,9 @@
 .hero-connect:hover {
   background: #df8908;
 }
+@media (max-width: 768px) {
+  .hero img {
+    margin-bottom: 120px;
+    width: 260px;
+  }
+}
