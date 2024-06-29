@@ -35,7 +35,7 @@ const Hero = () => {
       <div>
         <img
           src="/public/assets/hero.png"
-          className="w-3/5 md:w-7/12 !mx-auto md:mx-0"
+          className="w-3/5 md:w-8/12 !mx-auto md:mx-0"
         />
       </div>
       </div>

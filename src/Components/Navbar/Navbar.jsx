@@ -12,7 +12,7 @@ const Navbar = () => {
         menuRef.current.style.right="-350px"
     }
     return (
-        <div className='navbar md:pt-2'>
+        <div className='navbar container max-w-6xl mx-auto flex items-center justify-between md:pt-2'>
             {/* <img src='/public/assets/logo.svg' alt='logo'/> */}
             <div className='nav-title'>
                 <h1>Tonmoy</h1>
